@@ -27,7 +27,6 @@ int largestMobile()
 }
 int main()
 {
-    double total_t;
     printf("Enter n: ");
     scanf("%d", &n);
     for(int i=0;i<n;i++)
