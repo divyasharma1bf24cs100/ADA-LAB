@@ -10,7 +10,7 @@ void printPerm()
 int largestMobile()
 {
     int mobile=0;
-    for (int i=0;i<n;i++)
+    for(int i=0;i<n;i++)
     {
         if(dir[i]==-1 && i!=0 && p[i]>p[i-1])
         {
